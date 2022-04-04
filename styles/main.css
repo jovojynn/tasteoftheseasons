@@ -1,0 +1,139 @@
+/*===========================
+    Global
+===========================*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*===========================
+    Typography
+===========================*/
+
+
+
+
+
+
+
+/*===========================
+    Global Navigation
+===========================*/
+.gn ul {
+    display: flex;
+    
+}
+
+.gn li {
+    font-family: 'Petrona', serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.gn a {
+    padding: 50px 15px;
+    text-decoration: none;
+    letter-spacing: 2px;
+    color: #000;
+}
+
+
+
+
+/*===========================
+    Header
+===========================*/
+.header {
+    /* position: fixed; */
+    width: 100%;
+    padding: 30px 30px;
+    background-color: #BDA4D4;
+}
+
+/*===========================
+    Contact Us
+===========================*/
+.contact-pg {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 150px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.contact-pg h1 {
+    font-weight: 300;
+    font-size: 70px;
+    letter-spacing: 2px;
+    margin: 0 auto;
+}
+
+.contact-pg p {
+    font-weight: 200;
+    font-size: 30px;
+    margin: 0 auto;
+    padding-top: 40px;
+    letter-spacing: 1px;
+}
+
+.img-row{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.img-col {
+    padding: 15px;
+}
+
+.img-col img {
+    width: 300px;
+    height: 400px;
+}
+
+
+
+/*===========================
+    Footer
+===========================*/
+.footer {
+    width: 100%;
+    padding: 30px 30px;
+    background-color: #BDA4D4;
+}
+
+.footer ul {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.footer li {
+    font-family: 'Petrona', serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.footer a {
+    padding: 50px 15px;
+    text-decoration: none;
+    letter-spacing: 2px;
+    color: #000;
+}
+
+

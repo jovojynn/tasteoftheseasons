@@ -19,11 +19,18 @@
 .img-col {
     padding: 15px;
 }
-
-.img-col img {
-    width: 300px;
-    height: 400px;
+/* This photo setting is to create 2 landscape for Contact Us page */
+.img-col img{
+    width: 456px;
+    height: 250px;
+    padding: 0 20px;
 }
+/* This photo setting is to create portrait for Contact Us page */
+.img-col img:nth-child(2) {
+    width: 275px;
+    height: 250px;
+}
+    
 
 .btn-green {
     font-weight: 500;
@@ -46,6 +53,7 @@
 ===========================*/
 body {
     font-family: 'Montserrat', sans-serif;
+    min-height: 100vh;
 }
 
 h1 {
@@ -141,12 +149,66 @@ a {
     Contact Us
 ===========================*/
 
+.contact {
+    padding: 0 50px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.contact .btn-wrap {
+    flex-basis: 20%;
+	max-width: 20%;
+	text-align: right;
+    margin-top: 35px;
+    margin-right: -28px;
+}
+
+.contact ul {
+    margin-top: 50px;
+}
+
+.contact li {
+    display: flex;
+    margin-bottom: 12px;
+}
+
+.contact p {
+	flex-basis: 70%;
+	max-width: 70%;
+}
+/*===========================
+    Contact Page Buttons
+===========================*/
+
+.contact .btn {
+    font-weight: 300;
+    font-size: 18px;
+    width: 188px;
+    height: 52px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.btn-yellow {
+    padding: 15px 32px;
+    color: #fff;
+    background: #F3AB5F;
+}
+
+.btn-contact {
+    padding: 15px 29px;
+    color: #000;
+    border: #000 1px solid;
+}
 
 /*===========================
     Footer
 ===========================*/
+
 .footer {
-    width: 100%;
+    position: sticky;
+    top: 100%;
+    height: 152px;
     padding: 30px 30px;
     background-color: #8179B2;
 }
@@ -154,18 +216,16 @@ a {
 .footer ul {
     display: flex;
     justify-content: center;
-    
+    margin-top: 28px;
 }
 
 .footer li {
-    font-family: 'Petrona', serif;
-    font-size: 20px;
-    font-weight: 600;
+    font-size: 25px;
+    font-weight: 300;
 }
 
 .footer a {
-    padding: 50px 15px;
-    text-decoration: none;
+    padding: 0px 55px;
     letter-spacing: 2px;
     color: #000;
 }

@@ -10,10 +10,17 @@
     padding-top: 75px;
 }
 
+.about, 
+.contact {
+    max-width: 1200px;
+    margin: auto;
+}
+
 .img-row{
     display: flex;
     justify-content: center;
     margin: 50px 60px;
+    max-height: 800px;
 }
 
 .img-col {
@@ -22,17 +29,17 @@
     margin: auto;
     margin: 35px;
     width: 1200px;
-    height: auto;
 }
 /* adjusted photos to landscape */
 .img-col img{
     width: 38%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 /* adjusted photo to portrait*/
 .img-col img:nth-child(2) {
+    margin: 0 10px;
     width: 23.5%;
-    padding: 0 10px;
 }
     
 .btn-green {
@@ -40,15 +47,11 @@
     font-size: 18px;
     line-height: 22px;
     padding: 8px 32px;
-    align-items: center;
     text-align: center;
     background: #8FBC8F;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 15px;
     color: #000;
-    position: absolute;
-    right: 0;
-    bottom: 0;
 }
 
 /*===========================
@@ -155,14 +158,26 @@ a {
 }
 
 /*===========================
-    Contact Us
+    About Page Buttons
 ===========================*/
-
-.contact {
-    max-width: 1200px;
-    margin: auto;
+.btn-green-container {
+    position: relative;
 }
 
+.about-content .about-desc .btn-green-container .btn-green {
+    position: absolute;
+}
+
+.about-content .about-desc .btn-green-container .btn-green-1,
+.about-content .about-desc .btn-green-container .btn-green-2,
+.about-content .about-desc .btn-green-container .btn-green-3 {
+    bottom: 30px;
+    left: -190px;
+}
+
+/*===========================
+    Contact Us
+===========================*/
 .contact ul {
     margin: 50px;
 }

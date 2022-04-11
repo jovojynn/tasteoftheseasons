@@ -7,7 +7,6 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    padding-top: 75px;
 }
 
 .about, 
@@ -306,7 +305,6 @@ a {
     background: url(../images/opt-XLB.jpg);
 }
 
-
 .newsletter {
     justify-content: space-evenly;
     flex-direction: column;
@@ -346,7 +344,6 @@ a {
     border-radius: 15px;
     border: none;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-
 }
 
 /*===========================
@@ -386,8 +383,8 @@ a {
 }
 
 .about-content .about-desc .btn-green-container .btn-green-1,
-.about-content .about-desc .btn-green-container .btn-green-2,
-.about-content .about-desc .btn-green-container .btn-green-3 {
+.btn-green-2,
+.btn-green-3 {
     bottom: 30px;
     left: -190px;
 }
@@ -458,24 +455,15 @@ a {
     background-size: cover;
 }
 
-.is-flex {
-    display: flex;
-}
-
-.events .title {
-    padding: 75px;
+.events-pg .title {
     text-align: center;
 }
 
-.events h1 {
-    font-size: 28px;
+.events-pg .title p {
+    margin-bottom: -8px;
 }
 
-.events p {
-    font-size: 20px;
-}
-
-.events button {
+.events-pg button {
     background-color: #8FBC8F;
     border-radius: 12px;
     padding: 8px 20px;
@@ -485,38 +473,39 @@ a {
     border: none;
 }
 
-.events .season {
+.events-pg .container {
+    margin: 80px auto; 
+}
+
+.events-pg .season {
     margin-bottom: 20px;
     justify-content: center;
 }
 
-.events .img {
+.events-pg .img {
     flex-basis: 20%;
     padding: 20px 10px;
 }
 
-.events img{
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+.events-pg img{
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     object-fit: cover;
-
 }
 
-.events .season p {
+.events-pg .season p {
     margin-bottom: 20px;
 }
 
-.events .txt {
-
+.events-pg .txt {
     border: solid 2px black;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     flex-basis: 50%;
-    padding: 20px 20px;
+    padding: 25px 40px;
     line-height: 1.2;
-    height: 200px;
+    height: 335px;
     max-width: 800px;
     background-color: white;
 }
-
 
 /*===========================
     Footer
@@ -574,5 +563,3 @@ a {
     width: 134px;
     height: 134px;
 }
-
-
